@@ -1,3 +1,5 @@
+// First finding the value >B so the previous index will be <=B
+// search over here. if this prev index = -1 return 0.
 int Solution::searchMatrix(vector<vector<int> > &a, int B) {
     int m=a.size();
     int n=a[0].size();
