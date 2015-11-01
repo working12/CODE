@@ -6,7 +6,7 @@ int Solution::searchMatrix(vector<vector<int> > &a, int B) {
 
     if(m==1 && n==1)
       return a[0][0]==B?1:0;
-    int l=0,r=m-1;
+    int l=0,r=m-1; // change this part and it will work for 1..m also.
     
     while(l<r)
     {
@@ -21,6 +21,9 @@ int Solution::searchMatrix(vector<vector<int> > &a, int B) {
             l=mid+1;
         }
     }
+    
+    // finds the first index for which predicate returns true.
+    
     l--;
    
 
