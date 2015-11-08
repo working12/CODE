@@ -6,6 +6,7 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+ // The trick here is to consider an initial dummy node..That's it..After that life will be easy.
 ListNode* Solution::mergeTwoLists(ListNode* a, ListNode* b) {
     if(a==NULL)
     return b;
