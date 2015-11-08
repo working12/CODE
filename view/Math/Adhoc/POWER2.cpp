@@ -1,3 +1,6 @@
+// There are many corner cases
+// 1--or only power of single prime the  it should be >1 or multiple primes but have to be even value 
+// 2 is also a corner case.
 bool Solution::isPower(int a) {
     vector<int> v;
     int ct=0;
