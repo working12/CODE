@@ -1,3 +1,4 @@
+// Nothing tricky..I have gone for O(n^2) solution..that decision is correct here..so :-) AC.
 int Solution::findRank(string a) {
     string s=a;
     int ans=1;
