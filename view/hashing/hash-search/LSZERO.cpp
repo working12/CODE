@@ -8,7 +8,7 @@ vector<int> Solution::lszero(vector<int> &a) {
     int n=a.size();
     int sum=0;
     map<int ,int > m;
-    m[0]=-1;
+    m[0]=-1; //this is a key thing.. tricky :-)
     vector<ii> w;
     for(int i=0;i<n;i++)
     {
