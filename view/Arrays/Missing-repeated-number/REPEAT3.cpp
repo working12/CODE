@@ -8,12 +8,12 @@ int Solution::repeatedNumber(const vector<int> &a) {
         if(x==a[i])
         {
             xc++;
-            continue;
+            continue;//these continue is important
         }
         if(y==a[i])
         {
             yc++;
-            continue;
+            continue;//these continue is important
         }
         if(xc==0)
         {
