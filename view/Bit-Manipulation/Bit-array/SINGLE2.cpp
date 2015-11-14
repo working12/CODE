@@ -5,7 +5,7 @@ int Solution::singleNumber(const vector<int> &a1) {
     int result=0;
     for(int i=0;i<32;i++)
     {
-        long bm=1LL<<i;
+        long bm=1LL<<i;//this long will be trick..and important.
         int sum=0;
         for(int j=0;j<n;j++)
         {
