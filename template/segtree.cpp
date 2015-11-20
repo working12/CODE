@@ -34,7 +34,7 @@ int query(int node,int b,int e,int i,int j)
 void update(int node,int b,int e,int i,int newvalue)
 {
     if (i > e || i < b) return; 
-    if (b >= i && e <= i) 
+    if (b >= i && e <= i) // if(b==e)
     { 
         tree[node]=newvalue;
         return;
