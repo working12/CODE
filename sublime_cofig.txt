@@ -4,3 +4,5 @@
      "working_dir": "${file_path}",
      "shell": true
 }
+
+Save this with "sublime-build" file extension. And then add C:\Program Files (x86)\Dev-Cpp\MinGW64\bin in the Path variable.
